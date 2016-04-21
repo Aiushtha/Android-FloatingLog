@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Hello SyntaxHighlighter</title>
+    <link href="prettify.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="prettify.js"></script>
+</head>
+
+<body style="background: white; font-family: Helvetica">
+
+<h3 id="title"></h3>
+<pre class="prettyprint" id="url"></pre>
+<pre class="prettyprint" id="java"></pre>
+
+</body>
+
+<script>
+
+function writeHttp(title,url,context)
+{
+
+   var title_element=document.getElementById("title");
+   title_element.innerHTML=title;
+    var url_element=document.getElementById("url");
+   url_element.innerHTML=url;
+   var code_element=document.getElementById("java");
+   code_element.innerHTML=context;
+   prettyPrint();
+
+}
+
+function writeText(title,context)
+{
+
+   var title_element=document.getElementById("title");
+   title_element.innerHTML=title;
+   var code_element=document.getElementById("java");
+   code_element.innerHTML=context;
+   prettyPrint();
+
+}
+
+
+</script>
+
+</html>

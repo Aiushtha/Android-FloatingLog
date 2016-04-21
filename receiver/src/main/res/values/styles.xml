@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:mce="http://schemas.android.com/apk/res-auto">
+<style name="Theme.Translucent" parent="android:style/Theme.Translucent" mce_bogus="1">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:colorForeground">#fff</item>
+    <item name="android:windowBackground">@color/translucent_background</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:background">#01000000</item>
+</style>
+</resources>  
